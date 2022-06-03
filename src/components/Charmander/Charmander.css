@@ -1,0 +1,32 @@
+.c-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    max-width: 305px;
+    grid-row-start: 2;
+}
+.Charmander {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+}
+.chp {
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+.cheathbar {
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    max-height: 70px;
+}
+#chealth {
+    width: 100%;
+    max-width: 600px;
+    max-height: 60px;
+    height: 100%;
+}
+.charmander-image {
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
